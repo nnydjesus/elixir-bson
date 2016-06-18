@@ -7,10 +7,7 @@ defmodule Bson.Mixfile do
       version: "0.4.4",
       elixir: "~> 1.2.5",
       description: "BSON implementation for Elixir",
-      source_url: "https://github.com/nnydjesus/elixir-bson",
       deps: deps(Mix.env),
-      package: package,
-      docs: &docs/0 ]
   end
 
   # Configuration for the OTP application
@@ -26,12 +23,6 @@ defmodule Bson.Mixfile do
     ]
   end
   defp deps(_), do: []
-
-  defp docs do
-    [ #readme: true,
-      #main: "README",
-      source_ref: System.cmd("git", ["rev-parse", "--verify", "--quiet", "HEAD"])|>elem(0) ]
-  end
 
   defp package do
     [ contributors: ["jerp"],
