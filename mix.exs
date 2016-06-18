@@ -7,7 +7,7 @@ defmodule Bson.Mixfile do
       version: "0.4.4",
       elixir: "~> 1.2.5",
       description: "BSON implementation for Elixir",
-      deps: deps(Mix.env),
+      deps: deps(Mix.env)
   end
 
   # Configuration for the OTP application
