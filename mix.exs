@@ -7,7 +7,7 @@ defmodule Bson.Mixfile do
       version: "0.4.4",
       elixir: "~> 1.2.5",
       description: "BSON implementation for Elixir",
-      source_url: "https://github.com/checkiz/elixir-bson",
+      source_url: "https://github.com/nnydjesus/elixir-bson",
       deps: deps(Mix.env),
       package: package,
       docs: &docs/0 ]
@@ -37,7 +37,7 @@ defmodule Bson.Mixfile do
     [ contributors: ["jerp"],
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/checkiz/elixir-bson",
+        "GitHub" => "https://github.com/nnydjesus/elixir-bson.git",
         "Documentation" => "http://hexdocs.pm/bson/"
       } ]
   end
